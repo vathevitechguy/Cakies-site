@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Cakies</title>
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="fontawesome-free-5.7.0-web/css/all.min.css">
+        <link rel="shortcut icon" href="images/favicon.png" >
+        <script src="js/cart.js"></script>
+	    <link rel="shortcut icon" href="favicon.png" >
+         <script  src="js/jquery-3.2.0.min.js"></script>
+    </head>
+    <body>
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 main" id="main1">
+                <header class="header">
+                    <nav id="nav-wrap">
+                        <ul id="nav-items" class="topnav">
+                            <img class="logo" src="images/logo.png">
+                            <li><a href="#">Cakes</a></li>
+                            <li><a href="#">Birthday</a></li>
+                            <li><a href="#">Anniverasries</a></li>
+                            <li><a href="#">Kids Cake</a></li>
+                            <li><a href="#">Fun Cake</a></li>
+                            <li><a href="#">Crown Up</a></li>
+                            <a href="javascript:void(0);" class="toggler" onclick="toggler()"><i class="fa fa-bars"></i></a>
+                            <p id="cart-icon"><i class="fa fa-shopping-basket" aria-hidden="true" id="open"></i></p>
+                        </ul>
+                    </nav>
+                </header>
+
+                <script>
+                    function toggler() {
+                      var x = document.getElementById("myTopnav");
+                      if (x.className === "topnav") {
+                        x.className += " responsive";
+                      } else {
+                        x.className = "topnav";
+                      }
+                    }
+                    </script>
+                <div class="top-section">
+                    <div class="content-top">
+                        <div class="row">
+                            <div class="col-xl-7 col-lg-7 slide-container"><center>
+                                    <div class="mySlides">
+                                        <img src="images/Eggless-Vanilla-Cupcakes-500x375.jpg" id="flix">
+                                    </div>
+                                    <div class="mySlides">
+                                        <img src="images/cup3.jpg" id="flix">
+                                    </div>
+                                    <div class="mySlides">
+                                        <img src="images/cup4.jpg" id="flix">
+                                    </div>
+                                    <div style="text-align:center; margin-top: 20px;">
+                                        <a class="prev" onclick="plusSlides(-1)"><i class="fa fa-arrow-circle-left" style="color: rgb(244, 70, 117); font-size: 35px;" aria-hidden="true"></i></a>
+                                        <span class="dot" onclick="currentSlide(1)"></span> 
+                                        <span class="dot" onclick="currentSlide(2)"></span> 
+                                        <span class="dot" onclick="currentSlide(3)"></span> 
+                                        <a class="next" onclick="plusSlides(1)"><i class="fa fa-arrow-circle-right" style="color: rgb(244, 70, 117); font-size: 35px;" aria-hidden="true"></i></a>
+                                    </div>
+                            </center></div>
+                            <div class="col-xl-5 col-lg-5">
+                                <div class="bam">
+                                    <h1>Bam-Bam Lala <br>Special Offer</h1>
+                                    <p>Get bambam for your loved ones<br> this season!</p>
+                                    <a href="#"><button type="button" class="btn-shop">Shop!</button></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section id="products-area">
+                    <h2>Creamy Cakes</h2>
+                    <center><img src="images/underline.png" style="margin-top: -80px;"></center>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3">
+                                <div class="product-img">
+                                    <img src="images/cup1.jpg" alt="" class="image">
+                                    <div class="overlay">
+                                        <div class="btn-order"><a href="#0"><button class="order cd-add-to-cart js-cd-add-to-cart" data-price="22000" id="order">Order Cake</button></a></div>
+                                    </div>
+                                </div>
+                                <p class="product-name">Vanilla flavour ginger cake</p>
+                                <p id="category">Category</p>
+                                <p id="price">N22, 000</p>
+                                <ul id="ratings">
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-3 col-lg-3">
+                                <div class="product-img">
+                                    <img src="images/cup2.jpg" alt="" class="image">
+                                    <div class="overlay">
+                                        <div class="btn-order"><a href="#0"><button class="order cd-add-to-cart js-cd-add-to-cart" data-price="22000" id="order">Order Cake</button></a></div>
+                                    </div>
+                                </div>
+                                <p class="product-name">Vanilla flavour ginger cake</p>
+                                <p id="category">Category</p>
+                                <p id="price">N22, 000</p>
+                                <ul id="ratings">
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-3 col-lg-3">
+                                <div class="product-img">
+                                    <img src="images/cup4.jpg" alt="" class="image">
+                                    <div class="overlay">
+                                        <div class="btn-order"><a href="#0"><button class="order cd-add-to-cart js-cd-add-to-cart" data-price="22000" id="order">Order Cake</button></a></div>
+                                    </div>
+                                </div>
+                                <p class="product-name">Vanilla flavour ginger cake</p>
+                                <p id="category">Category</p>
+                                <p id="price">N22, 000</p>
+                                <ul id="ratings">
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-3 col-lg-3">
+                                <div class="product-img">
+                                    <img src="images/cup3.jpg" alt="" class="image">
+                                    <div class="overlay">
+                                        <div class="btn-order"><a href="#0"><button class="order cd-add-to-cart js-cd-add-to-cart" data-price="22000" id="order">Order Cake</button></a></div>
+                                    </div>
+                                </div>
+                                <p class="product-name">Vanilla flavour ginger cake</p>
+                                <p id="category">Category</p>
+                                <p id="price">N22, 000</p>
+                                <ul id="ratings">
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+
+                        <div class="row" style="margin-top: 45px;">
+                            <div class="col-xl-3 col-lg-3">
+                                <div class="product-img">
+                                    <img src="images/cup4.jpg" alt="" class="image">
+                                    <div class="overlay">
+                                        <div class="btn-order"><a href="#0"><button class="order cd-add-to-cart js-cd-add-to-cart" data-price="22000" id="order">Order Cake</button></a></div>
+                                    </div>
+                                </div>
+                                <p class="product-name">Vanilla flavour ginger cake</p>
+                                <p id="category">Category</p>
+                                <p id="price">N22, 000</p>
+                                <ul id="ratings">
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-3 col-lg-3">
+                                <div class="product-img">
+                                    <img src="images/cup3.jpg" alt="" class="image">
+                                    <div class="overlay">
+                                        <div class="btn-order"><a href="#0"><button class="order cd-add-to-cart js-cd-add-to-cart" data-price="22000" id="order">Order Cake</button></a></div>
+                                    </div>
+                                </div>
+                                <p class="product-name">Vanilla flavour ginger cake</p>
+                                <p id="category">Category</p>
+                                <p id="price">N22, 000</p>
+                                <ul id="ratings">
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-3 col-lg-3">
+                                <div class="product-img">
+                                    <img src="images/cup1.jpg" alt="" class="image">
+                                    <div class="overlay">
+                                        <div class="btn-order"><a href="#0"><button class="order cd-add-to-cart js-cd-add-to-cart" data-price="22000" id="order">Order Cake</button></a></div>
+                                    </div>
+                                </div>
+                                <p class="product-name">Vanilla flavour ginger cake</p>
+                                <p id="category">Category</p>
+                                <p id="price">N22, 000</p>
+                                <ul id="ratings">
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-3 col-lg-3">
+                                <div class="product-img">
+                                    <img src="images/cup2.jpg" alt="" class="image">
+                                    <div class="overlay">
+                                        <div class="btn-order"><a href="#0"><button class="order cd-add-to-cart js-cd-add-to-cart" data-price="22000" id="order">Order Cake</button></a></div>
+                                    </div>
+                                </div>
+                                <p class="product-name">Vanilla flavour ginger cake</p>
+                                <p id="category">Category</p>
+                                <p id="price">N22, 000</p>
+                                <ul id="ratings">
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star"  aria-hidden="true"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+
+                <section id="special-area">
+                    <div class="special-area-head">
+                        <h2>Specials</h2>
+                        <center><img src="images/underline-black.png" style="margin-top: -10px; width: 125px;"></center>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-2 col-lg-2">
+                                <center><img src="images/cup3.jpg" alt="" class="img-spe">
+                                    <p class="spe-title">Ginger Cake</p>
+                                    <p class="spe-price">N23, 000</p>
+                                </center>
+                            </div>
+                            <div class="col-xl-2 col-lg-2">
+                                <center><img src="images/cup2.jpg" alt="" class="img-spe">
+                                    <p class="spe-title">Ginger Cake</p>
+                                    <p class="spe-price">N23, 000</p>
+                                </center>
+                            </div>
+                            <div class="col-xl-2 col-lg-2">
+                                <center><img src="images/cup4.jpg" alt="" class="img-spe">
+                                    <p class="spe-title">Ginger Cake</p>
+                                    <p class="spe-price">N23, 000</p>
+                                </center>
+                            </div>
+                            <div class="col-xl-2 col-lg-2">
+                                <center><img src="images/cup3.jpg" alt="" class="img-spe">
+                                    <p class="spe-title">Ginger Cake</p>
+                                    <p class="spe-price">N23, 000</p>
+                                </center>
+                            </div>
+                            <div class="col-xl-2 col-lg-2">
+                                <center><img src="images/cup2.jpg" alt="" class="img-spe">
+                                    <p class="spe-title">Ginger Cake</p>
+                                    <p class="spe-price">N23, 000</p>
+                                </center>
+                            </div>
+                            <div class="col-xl-2 col-lg-2">
+                                <center><img src="images/cup1.jpg" alt="" class="img-spe">
+                                    <p class="spe-title">Ginger Cake</p>
+                                    <p class="spe-price">N23, 000</p>
+                                </center>
+                            </div>
+                        </div>
+                        <div class="spe-controls">
+                            <center><ul>
+                                <li><i class="fa fa-arrow-circle-left" id="direction" aria-hidden="true"></i></li>
+                                    <li class="bullets">
+                                        <i class="fa fa-dot-circle" id="bullet" aria-hidden="true"></i>
+                                        <i class="fa fa-dot-circle" id="bullet" aria-hidden="true"></i>
+                                        <i class="fa fa-dot-circle" id="bullet" aria-hidden="true"></i>
+                                        <i class="fa fa-dot-circle" id="bullet" aria-hidden="true"></i>
+                                        <i class="fa fa-dot-circle" id="bullet" aria-hidden="true"></i>
+                                    </li>
+                                <li><i class="fa fa-arrow-circle-right" id="direction" aria-hidden="true"></i></li>
+                            </ul></center>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section id="contact-area">
+                    <h2>Contact us</h2>
+                    <center><img src="images/underline.png" style="margin-top: -130px;"></center>
+                        <center><iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d247.41323047865527!2d3.3671231!3d7.1708065!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103a4957317db189%3A0x407ade6e625372e0!2sAlayo%20Health%20%26%20Wellness%20Centre!5e0!3m2!1sen!2sng!4v1573571112642!5m2!1sen!2sng" width="700" height="400" allowfullscreen=""></iframe></center>
+                </section>
+
+                <section id="footer-area">
+                   
+                </section>
+
+
+            </div>
+            
+            <script>
+    
+                $(document).on('click', '#open', function() {
+                        $("#main1").attr("class", "col-xl-9 col-lg-9");
+                        $("#cart1").css({'display':'block'}); 
+                        $("#cart-icon").css({'color':'rgb(244, 70, 117)'}); 
+
+                });
+                $(document).on('click', '#order', function() {
+                        $("#main1").attr("class", "col-xl-9 col-lg-9");
+                        $("#cart1").css({'display':'block'}); 
+                        $("#cart-icon").css({'color':'rgb(244, 70, 117)'}); 
+
+                });
+                $(document).on('click', '#close', function() {
+                        $("#main1").attr("class", "col-xl-12 col-lg-12");
+                        $("#cart1").css({'display':'none'}); 
+                        $("#cart-icon").css({'color':'black'});  
+
+                });
+            </script>
+            <div class="col-xl-3 col-lg-3 cart-area-rl" id="cart1">
+                <div class="cart-area">
+                <div class="cart-area-content">
+                    <ul class="close-cart">
+                        <li id="close-icon"><i class="fa fa-window-close" aria-hidden="true" id="close"></i></li>
+                    </ul>
+                    <center><div id="logo-circle"><img src="images/logo.png"></div>
+                            <p style="margin-top: 15px;">Select a cake and get it <br>delivered to your doorstep</p>
+                            <img src="images/underline-crow.png">
+                    </center>
+                    <div class="basket">
+                        <p>Basket Items</p>
+                        <p id="no-item">No items added yet</p>
+                        <div class="cd-cart cd-cart--empty js-cd-cart">
+                            <a href="#0" class="cd-cart__trigger text-replace">
+                                <ul class="cd-cart__count"> 
+                                    <li>0</li>
+			                        <li>0</li>
+                                </ul>
+                            </a>
+                        
+                            <div class="cd-cart__content">
+                                <div class="cd-cart__layout">
+                                    <div class="cd-cart__body">
+                                        <ul>
+                                            <!-- products added to the cart will be inserted here-->
+                                        </ul>
+                                    </div>
+                                    <hr>
+                                    <div class="client-details">
+                                        <p>Address</p>
+                                        <input type="text" placeholder="Delivery Address" required>
+                                        <p>City</p>
+                                        <input type="text" placeholder="No City Selected">
+                                        <p>Phone</p>
+                                        <input type="text" placeholder="Your Phone Number" required>
+                                        <a href="#0" class="cd-cart__checkout"><button type="button" class="btn-pay">Deliver - Pay N<span>0</span>k</button></a>
+                                    </div>
+                                </div> <!-- .cd-cart__content -->
+                            </div> <!-- cd-cart -->
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+        <!-- Java Script
+        ================================================== -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+        <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="js/slide.js"></script>
+        <script type="text/javascript" src="js/basket.js"></script>
+        <script type="text/javascript" src="js/util.js"></script>
+       
+
+
+    </body>
+</html>
